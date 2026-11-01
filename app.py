@@ -4,7 +4,7 @@ import csv
 import os
 
 app = Flask(__name__)
-client = genai.Client(api_key="AIzaSyBu4UVJmNNxg8HS5OrJIIEKshEYX53B5RE")
+client = genai.Client(api_key="1234")
 UPLOAD_FOLDER = os.path.join(app.root_path, "uploads")
 DOWNLOAD_DIRECTORY = os.path.join(app.root_path, "downloads")
 ALLOWED_EXTENSIONS = {'PDF', 'DOC', 'DOCX', 'TXT', 'RTF', 'HWP', 'HTML','XLS',
